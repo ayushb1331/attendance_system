@@ -11,7 +11,7 @@ This project uses **DeepFace** for face recognition and **OpenCV** for camera ha
 - **User Registration**: Capture face samples via webcam and store them with a unique User ID  
 - **Real-time Recognition**: Matches live video feed against the registered face database  
 - **Attendance Logging**: Automatically records timestamps and User IDs into a CSV file  
-- **Basic Anti-Spoofing**: Includes blink/liveness detection logic (extendable)
+- **Basic Anti-Spoofing**: Includes blink/liveness detection logic
 
 ---
 
@@ -95,4 +95,4 @@ Date, User_ID, Time, Status
 
 - Ensure proper lighting for better recognition accuracy  
 - Webcam must be connected and accessible  
-- Anti-spoofing logic can be extended with eye-blink or head-movement detection  
+- Anti-spoofing logic can be extended with head-movement detection  
